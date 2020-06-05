@@ -37,7 +37,31 @@ Then import the module as follow on imports array
 After importing this library with `npm  install ngx-strings`, go to the component which is declared under `app.module.ts` and integrate as below. use it on any component or else declare it on `app.component.ts` for enabling it global to application.
 
 ## Integrataions module
-
+### Email slicer
+Directive | Usage
+------------ | -------------
+ngxEmailSlicer | Slicing / protecting the email string to user view. `(Validation included)`
+Attributes |  `invalid` as string for custom error message
+           
+```HTML
+  <span ngxEmailSlicer>
+    manoj10101996gmail.com
+  </span> <br>
+  <span ngxEmailSlicer>
+    violinhi@yahoo.com
+  </span> <br>
+  <span ngxEmailSlicer>
+    staikos@optonline.net
+  </span> <br>
+  <span invalid="Error occured" ngxEmailSlicer>
+    staikosoptonline.net
+  </span>
+  <br>
+  <span invalid="Error occured" ngxEmailSlicer>
+    staik@osoptonlinenet
+  </span>
+```
+### String lines limitation `for all browsers - Responsive`
 Directive | Usage
 ------------ | -------------
 ngxLineLimit | Limiting the lines for user view. (ellipsis) `Responsive`
@@ -51,6 +75,7 @@ Attributes |  `lines` as number
     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </span>
 ```
+### String / Character replacer
 Directive | Usage
 ------------ | -------------
 ngxStringReplacer | Replacing the existing words with new words. (ellipsis) `Responsive`
@@ -64,6 +89,8 @@ Attributes |  `from` as string `to` as string
     sint occaecat quis quis proident, quis in culpa qui quis deserunt mollit anim id est laborum.
   </span>
 ```
+
+### String slicer - limiting the charaters
 Directive | Usage
 ------------ | -------------
 ngxStringSlicer | Slicing / Limiting the string using character count. (ellipsis) `Non-Responsive`
