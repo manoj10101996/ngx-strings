@@ -102,6 +102,32 @@ Attributes |  `start` as number `end` as number `overflow` as boolean (ellipsis)
   </span>
 ```
  
+### String case - Changing the case
+Directive | Usage
+------------ | -------------
+ngxInitialCase | `Default` string / paragraph.
+ngxTitleCase |  Change the `first` character to uppercase on string / paragraph
+ngxUpperCase | Changing the entire  string / paragraph to `uppercase`
+ngxLowerCase | Changing the entire  string / paragraph to `lowercase`
+           
+```HTML
+ <span ngxInitialCase>
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  </span>
+  <h3>Titlecase</h3>
+  <span ngxTitleCase>
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  </span>
+  <h3>Uppercase</h3>
+  <span ngxUpperCase>
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  </span>
+  <h3>Lowercase</h3>
+  <span ngxLowerCase>
+    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  </span>
+```
+ 
  
 ## Further help
 
