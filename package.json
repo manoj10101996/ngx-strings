@@ -1,0 +1,48 @@
+{
+  "name": "ngx-strings",
+  "author": {
+    "name": "Manojkumar Muthukumar",
+    "email": "manoj1010196@gmail.com"
+  },
+  "description": "String oeperations",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "icon": "https://image.flaticon.com/icons/svg/2921/2921724.svg",
+  "keywords": [
+    "angular",
+    "ngx",
+    "ng9",
+    "string",
+    "email",
+    "slice",
+    "lineclamp",
+    "line limit",
+    "replace",
+    "textcase",
+    "directive",
+    "ngx-strings",
+    "manoj10101996",
+    "uiconfig"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manoj10101996/ngx-strings"
+  },
+  "main": "bundles/ngx-strings.umd.js",
+  "module": "fesm5/ngx-strings.js",
+  "es2015": "fesm2015/ngx-strings.js",
+  "esm5": "esm5/ngx-strings.js",
+  "esm2015": "esm2015/ngx-strings.js",
+  "fesm5": "fesm5/ngx-strings.js",
+  "fesm2015": "fesm2015/ngx-strings.js",
+  "typings": "ngx-strings.d.ts",
+  "metadata": "ngx-strings.metadata.json",
+  "sideEffects": false
+}

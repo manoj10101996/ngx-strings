@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-strings
+ */
+export * from './lib/ngx-strings.service';
+export * from './lib/ngx-strings.component';
+export * from './lib/ngx-strings.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1zdHJpbmdzLyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsMkJBQTJCLENBQUM7QUFDMUMsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLDBCQUEwQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtc3RyaW5nc1xuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1zdHJpbmdzLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXN0cmluZ3MuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1zdHJpbmdzLm1vZHVsZSc7XG4iXX0=

@@ -4,8 +4,6 @@
 
 > String operations for angular 8+ projects (ng9)
 
-> Creative scroll page button with mutiple color variance
-
 # Preview demo
 
 This preview was generated with [Stackblitz](https://stackblitz.com/edit/ngx-strings)
@@ -131,6 +129,6 @@ ngxLowerCase | Changing the entire  string / paragraph to `lowercase`
  
 ## Further help
 
-To get more help on the usage  check out the [Ngx rating star README](https://github.com/manoj10101996/ngx-star-rating/blob/master/README.md).
+To get more help on the usage  check out the [Ngx strings README](https://github.com/manoj10101996/ngx-star-rating/blob/master/README.md).
 
 
